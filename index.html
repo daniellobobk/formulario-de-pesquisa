@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" />
+      -
+      <label for="password">Password:</label>
+      <input type="password" id="password" /><br /><br />
+
+      <label for="nascimento">Data De Nascimento:</label>
+      <input type="date" id="nascimento" />
+      -
+      <label for="foto">Foto:</label>
+      <input type="file" id="foto" /><br /><br />
+
+      <label for="lista">Nascionalidade:</label>
+      <input type="text" id="text" name="text" list="opcoes" />
+
+      <datalist id="opcoes">
+        <option value="Russo"></option>
+        <option value="Brasileiro"></option>
+        <option value="Chines"></option>
+      </datalist>
+
+      -
+      <label for="generoF">Genero:F</label>
+      <input type="radio" id="gerero" />
+
+      <label for="generoF">Genero:F</label>
+      <input type="radio" id="gerero" /> <br /><br />
+
+      <label for="qualidades">Suas Principais qualidades:</label>
+      <label for="Inteligencia"><input type="checkbox" name="Inteligencia" id="Inteligencia"  />Inteligencia</label>  |
+      <label for="Resiliencia"><input type="checkbox" name="Resiliencia" id="Resiliencia" />Resiliencia</label>  |
+      <label for="Preparo fisico"><input type="checkbox" name="Preparo" id="Preparo" />Preparo Fisico</label>  |
+      <label for="Educação"><input type="checkbox" name="Educação" id="Educação" />Educação</label>  | <br><br>
+
+      <textarea name="astronautas" id="astronautas" cols="30" rows="10" placeholder="Porque voce gosraria de ser um astronalta ?"></textarea><br><br>
+
+      <input type="button" value="Criar">
+    </form>
+  </body>
+</html>
